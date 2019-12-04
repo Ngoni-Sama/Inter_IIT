@@ -15,10 +15,15 @@
 
 	<body class="shrine-login">
 		<section class="header">
-			<h1>Sign In</h1>
+			<img
+				src="https://upload.wikimedia.org/wikipedia/commons/5/51/Logo_of_IIT_Bhilai.png"
+				alt="logo"
+				class="logo"
+			/>
+			<h1>Login</h1>
 		</section>
 
-		<form action="home.html">
+		<form action="home.php">
 			<div class="mdc-text-field username">
 				<input
 					type="text"
@@ -42,23 +47,25 @@
 				<label class="mdc-floating-label" for="password-input">Password</label>
 				<div class="mdc-line-ripple"></div>
 			</div>
-
+			<div style="text-align: right; padding-right: 180px; padding-bottom: 8px;;">
+				<a href="">Forgot Password ?</a>
+			</div>
 			<div class="button-container">
 				<button type="button" class="mdc-button cancel">
 					<div class="mdc-button__ripple"></div>
 					<span class="mdc-button__label">
-						Cancel
+						Sign Up
 					</span>
 				</button>
 				<button class="mdc-button mdc-button--raised next">
 					<div class="mdc-button__ripple"></div>
 					<span class="mdc-button__label">
-						Next
+						Login
 					</span>
 				</button>
 			</div>
 		</form>
 
-		<script src="dist/bundle-login.js" async></script>
+		<script src="./dist/bundle-login.js" async></script>
 	</body>
 </html>
