@@ -8,3 +8,21 @@
 	padding-top: 80px;
 	fill: currentColor;
 }
+
+.button-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 300px;
+	margin: auto;
+}
+
+.text-field,
+section.header {
+	display: block;
+	width: 300px;
+	margin: 20px auto;
+}
+
+section.header {
+	text-align: center;
+}
