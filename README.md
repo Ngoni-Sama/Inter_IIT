@@ -4,6 +4,10 @@
 
 ```bash
 npm run start
-bg
+```
+
+In separate shell:
+
+```bash
 php -S localhost:80
 ```
