@@ -23,7 +23,7 @@ function getStyleUse(bundleFilename) {
 
 function getStyleEntry(pageName) {
 	return {
-		entry: './' + pageName + '.scss',
+		entry: './styles/' + pageName + '.scss',
 		output: {
 			// This is necessary for webpack to compile, but we never reference this js file.
 			filename: 'temp/style-bundle-' + pageName + '.js'
@@ -31,7 +31,7 @@ function getStyleEntry(pageName) {
 		module: {
 			rules: [
 				{
-					test: new RegExp(pageName + '.scss$'),
+					test: new RegExp('styles/' + pageName + '.scss$'),
 					use: getStyleUse('bundle-' + pageName + '.css')
 				}
 			]
@@ -41,14 +41,14 @@ function getStyleEntry(pageName) {
 
 function getJSEntry(pageName) {
 	return {
-		entry: './' + pageName + '.js',
+		entry: './js/' + pageName + '.js',
 		output: {
 			filename: 'dist/bundle-' + pageName + '.js'
 		},
 		module: {
 			loaders: [
 				{
-					test: new RegExp(pageName + '.js$'),
+					test: new RegExp('js/' + pageName + '.js$'),
 					loader: 'babel-loader',
 					query: { presets: ['env'] }
 				}
