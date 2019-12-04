@@ -1,3 +1,4 @@
 node_modules/
 temp/
 dist/
+npm-debug.log

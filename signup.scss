@@ -1,0 +1,10 @@
+@import './common';
+@import '@material/textfield/mdc-text-field';
+@import '@material/button/mdc-button';
+
+.logo {
+	width: 150px;
+	height: 150px;
+	padding-top: 80px;
+	fill: currentColor;
+}

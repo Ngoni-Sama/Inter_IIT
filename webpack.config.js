@@ -1,3 +1,5 @@
+const pages = ['index', 'home', 'login', 'signup'];
+
 function getStyleUse(bundleFilename) {
 	return [
 		{
@@ -19,65 +21,47 @@ function getStyleUse(bundleFilename) {
 	];
 }
 
-module.exports = [
-	{
-		entry: './login.scss',
+function getStyleEntry(pageName) {
+	return {
+		entry: './' + pageName + '.scss',
 		output: {
 			// This is necessary for webpack to compile, but we never reference this js file.
-			filename: 'temp/style-bundle-login.js'
+			filename: 'temp/style-bundle-' + pageName + '.js'
 		},
 		module: {
 			rules: [
 				{
-					test: /login.scss$/,
-					use: getStyleUse('bundle-login.css')
+					test: new RegExp(pageName + '.scss$'),
+					use: getStyleUse('bundle-' + pageName + '.css')
 				}
 			]
 		}
-	},
-	{
-		entry: ['./home.scss'],
+	};
+}
+
+function getJSEntry(pageName) {
+	return {
+		entry: './' + pageName + '.js',
 		output: {
-			// This is necessary for webpack to compile, but we never reference this js file.
-			filename: 'temp/style-bundle-home.js'
-		},
-		module: {
-			rules: [
-				{
-					test: /home.scss$/,
-					use: getStyleUse('bundle-home.css')
-				}
-			]
-		}
-	},
-	{
-		entry: './login.js',
-		output: {
-			filename: 'dist/bundle-login.js'
+			filename: 'dist/bundle-' + pageName + '.js'
 		},
 		module: {
 			loaders: [
 				{
-					test: /login.js$/,
+					test: new RegExp(pageName + '.js$'),
 					loader: 'babel-loader',
 					query: { presets: ['env'] }
 				}
 			]
 		}
-	},
-	{
-		entry: './home.js',
-		output: {
-			filename: 'dist/bundle-home.js'
-		},
-		module: {
-			loaders: [
-				{
-					test: /home.js$/,
-					loader: 'babel-loader',
-					query: { presets: ['env'] }
-				}
-			]
-		}
-	}
-];
+	};
+}
+
+let config = [];
+
+pages.forEach(page => {
+	config.push(getStyleEntry(page));
+	config.push(getJSEntry(page));
+});
+
+module.exports = config;
