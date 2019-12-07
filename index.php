@@ -35,6 +35,10 @@
         </div>
     </main>
 
+    <!-- TODO: add hero image credit
+    Photographer:Alexey Sokolov https://photos.icons8.com/photographers/alexey-sokolov
+    -->
+
     <?php include_once('includes/scripts.php') ?>
 </body>
 

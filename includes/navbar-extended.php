@@ -1,5 +1,5 @@
 <div class="navbar-fixed">
-    <nav class="teal">
+    <nav class="teal nav-extended">
         <div class="nav-wrapper">
 
             <a href="./" class="brand-logo" style="padding-left:20px; font-family: 'Damion', cursive;"> MedicoRx
@@ -13,6 +13,18 @@
                 <li><a href="mobile.html">About Us</a></li>
                 <li><a href="mobile.html">Login</a></li>
             </ul>
+        </div>
+
+        <div class="nav-content">
+            <form>
+                <div class="input-field">
+                    <input id="search" type="search" style="padding: 5px 50px;" required>
+                    <label class="label-icon" for="search">
+                        <i class="material-icons">search</i>
+                    </label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
         </div>
     </nav>
 </div>
