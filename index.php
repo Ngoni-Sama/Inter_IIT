@@ -2,52 +2,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Title</title>
-    <link rel="shortcut icon" href="https://material.io/favicon.ico" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-    <link rel="stylesheet" href="dist/bundle-login.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <?php include_once('includes/head.php') ?>
+    <link rel="stylesheet" href="css/index.css">
+    <title>MediCore</title>
 </head>
 
-<body class="shrine-login">
-    <section class="header">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Logo_of_IIT_Bhilai.png" alt="logo" class="logo" />
-        <h1>Login</h1>
-    </section>
+<body>
+    <?php include('includes/navbar.php') ?>
+    <main>
+        <div id="parallax" style="position: relative;">
+            <div class="parallax__center">
+                <!-- <img class="logo_bhilai" src="Webp.net-resizeimage.png" alt=""> -->
+                <div class="white-text caption" style="margin: 0px auto">
+                    <br>
+                    <span class="flow-text" style="margin: 0px auto 3px auto;">Indian Institute of Technology, Bhilai</span>
+                    <h1 style="margin: 0px auto 3px auto; font-size: 3.3em; font-weight: bold;">COMPLAINT FORUM</h1>
+                </div>
+            </div>
+            <div style="position:absolute; bottom: 25px; width: 100%; text-align: center;">
+                <a class="btn-large btn waves-effect blue" href="index.php" style="margin: 7.5px;"><i class="left material-icons">move_to_inbox</i>Make Complaint</a>;
+                <a class="btn-large btn waves-effect blue" style="margin: 7.5px;" id="signinbutton2" href="login.php"><i class="fa fa-sign-in left" aria-hidden="true"></i>Sign in</a>
+                <div style="width:100%;">
+                    <p class="flow-text white-text signin" style="text-align:center !important;margin: 0px auto 3px auto; font-size:1.1rem;font-family: 'Caveat', cursive;">Sign in to make your complaint</p>
+                </div>
+            </div>
+        </div>
 
-    <form action="home.php">
-        <div class="mdc-text-field username">
-            <input type="text" class="mdc-text-field__input" id="username-input" name="username" required />
-            <label class="mdc-floating-label" for="username-input">Username</label>
-            <div class="mdc-line-ripple"></div>
+        <div class="container">
+            <!-- About Us stuff here -->
         </div>
-        <div class="mdc-text-field password">
-            <input type="password" class="mdc-text-field__input" id="password-input" name="password" minlength="8" required />
-            <label class="mdc-floating-label" for="password-input">Password</label>
-            <div class="mdc-line-ripple"></div>
-        </div>
-        <div class="button-container">
-            <a href="signup.php" class="mdc-button register">
-                <div class="mdc-button__ripple"></div>
-                <span class="mdc-button__label">
-                    Register
-                </span>
-            </a>
-            <button class="mdc-button mdc-button--raised next">
-                <div class="mdc-button__ripple"></div>
-                <span class="mdc-button__label">
-                    Login
-                </span>
-            </button>
-        </div>
-        <div class="forgot">
-            <a href="#">Forgot Password?</a>
-        </div>
-    </form>
-
-    <script src="./dist/bundle-login.js" async></script>
+    </main>
 </body>
 
 </html>
