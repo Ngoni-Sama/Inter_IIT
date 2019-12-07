@@ -12,6 +12,13 @@
 	background-size: cover;
 }
 
+.logo {
+	width: 40px;
+	height: 50px;
+	fill: currentColor;
+	padding-top: 15px;
+}
+
 .parallax__center {
 	position: absolute;
 	left: 0;

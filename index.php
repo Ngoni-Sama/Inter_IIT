@@ -19,15 +19,15 @@
                 <div class="white-text caption" style="margin: 0px auto">
                     <br>
                     <span class="flow-text" style="margin: 0px auto 3px auto;">Indian Institute of Technology, Bhilai</span>
-                    <h1 style="margin: 0px auto 3px auto; font-size: 3.3em; font-weight: bold;">COMPLAINT FORUM</h1>
+                    <h1 style="margin: 0px auto 3px auto; font-size: 3.3em; font-weight: bold;font-family: 'Damion', cursive;">MedicoRx</h1>
                 </div>
             </div>
-            <div style="position:absolute; bottom: 25px; width: 100%; text-align: center;">
-                <a class="btn-large btn waves-effect blue" href="index.php" style="margin: 7.5px;"><i class="left material-icons">move_to_inbox</i>Make Complaint</a>;
-                <a class="btn-large btn waves-effect blue" style="margin: 7.5px;" id="signinbutton2" href="login.php"><i class="fa fa-sign-in left" aria-hidden="true"></i>Sign in</a>
-                <div style="width:100%;">
+            <div style="position:absolute; bottom: 120px; width: 100%; text-align: center;">
+                <!-- <a class="btn-large btn waves-effect" href="index.php" style="margin: 7.5px;"><i class="left material-icons">move_to_inbox</i>Make Complaint</a>; -->
+                <a class="btn-large btn waves-effect" style="margin: 7.5px;" id="signinbutton2" href="login.php"><i class="fa fa-sign-in left" aria-hidden="true"></i>Sign in</a>
+                <!-- <div style="width:100%;">
                     <p class="flow-text white-text signin" style="text-align:center !important;margin: 0px auto 3px auto; font-size:1.1rem;font-family: 'Caveat', cursive;">Sign in to make your complaint</p>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -37,6 +37,7 @@
     </main>
 
     <?php include_once('includes/scripts.php') ?>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
