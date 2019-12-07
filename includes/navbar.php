@@ -1,8 +1,8 @@
 <div class="navbar-fixed">
     <nav style="background-color: teal;">
         <div class="nav-wrapper">
-    
-            <a href="#!" class="brand-logo" style="padding-left:20px; font-family: 'Damion', cursive;"> MedicoRx</a> 
+
+            <a href="./" class="brand-logo" style="padding-left:20px; font-family: 'Damion', cursive;"> MedicoRx</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="./">Home</a></li>

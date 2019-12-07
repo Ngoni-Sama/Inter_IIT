@@ -18,18 +18,12 @@
     </main>
 
     <div class="fixed-action-btn">
-        <a href="#" class="btn-floating btn-large waves-effect waves-circle waves-light blue">
+        <a href="#" class="btn-floating btn-large waves-effect waves-circle waves-light teal">
             <i class="large material-icons">shopping_cart</i>
         </a>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-
-            M.AutoInit()
-        })
-    </script>
-
+    <?php include_once('includes/scripts.php') ?>
 </body>
 
 </html>

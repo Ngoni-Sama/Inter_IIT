@@ -37,7 +37,6 @@
     </main>
 
     <?php include_once('includes/scripts.php') ?>
-    <script src="./js/index.js"></script>
 </body>
 
 </html>
