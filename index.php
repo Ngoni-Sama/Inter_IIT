@@ -35,6 +35,8 @@
             <!-- About Us stuff here -->
         </div>
     </main>
+
+    <?php include_once('includes/scripts.php') ?>
 </body>
 
 </html>
