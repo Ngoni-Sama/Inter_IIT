@@ -14,75 +14,8 @@
     <?php include('includes/navbar-extended.php') ?>
     <main style="margin-top: 80px;">
         <div class="container">
-            <ul class="collection">
-                <li class="collection-item avatar">
-                    <i class="fas fa-pills circle teal"></i>
-                    <span class="medicine-name">Medicine Name</span>
-                    <span class="green-text price">₹ 100</span>
+            <ul id="medicine-list" class="collection">
 
-                    <p>
-                        <span class="blue-text">ABC Pharmaceuticals</span><br>
-                        Mfg: 08/12/19<br>
-                        Exp: 08/12/20
-                    </p>
-                    <div class="secondary-content price-container">
-                        <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
-                        <a href="#!" class="btn-flat waves-effect white-text teal">
-                            Add
-                        </a>
-                    </div>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="fas fa-pills circle teal"></i>
-                    <span class="medicine-name">Medicine Name</span>
-                    <span class="green-text price">₹ 100</span>
-
-                    <p>
-                        <span class="blue-text">ABC Pharmaceuticals</span><br>
-                        Mfg: 08/12/19<br>
-                        Exp: 08/12/20
-                    </p>
-                    <div class="secondary-content price-container">
-                        <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
-                        <a href="#!" class="btn-flat waves-effect white-text teal">
-                            Add
-                        </a>
-                    </div>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="fas fa-pills circle teal"></i>
-                    <span class="medicine-name">Medicine Name</span>
-                    <span class="green-text price">₹ 100</span>
-
-                    <p>
-                        <span class="blue-text">ABC Pharmaceuticals</span><br>
-                        Mfg: 08/12/19<br>
-                        Exp: 08/12/20
-                    </p>
-                    <div class="secondary-content price-container">
-                        <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
-                        <a href="#!" class="btn-flat waves-effect white-text teal">
-                            Add
-                        </a>
-                    </div>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="fas fa-pills circle teal"></i>
-                    <span class="medicine-name">Medicine Name</span>
-                    <span class="green-text price">₹ 100</span>
-
-                    <p>
-                        <span class="blue-text">ABC Pharmaceuticals</span><br>
-                        Mfg: 08/12/19<br>
-                        Exp: 08/12/20
-                    </p>
-                    <div class="secondary-content price-container">
-                        <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
-                        <a href="#!" class="btn-flat waves-effect white-text teal">
-                            Add
-                        </a>
-                    </div>
-                </li>
             </ul>
         </div>
     </main>
@@ -93,7 +26,28 @@
         </a>
     </div>
 
+    <template id="medicine-template">
+        <li class="collection-item avatar">
+            <i class="fas fa-pills circle teal"></i>
+            <span class="medicine-name">Medicine Name</span>
+            <span class="green-text price">₹ 100</span>
+
+            <p>
+                <span class="blue-text company">ABC Pharmaceuticals</span><br>
+                <span class="mfg"></span><br>
+                <span class="exp"></span>
+            </p>
+            <div class="secondary-content price-container">
+                <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
+                <a href="#!" class="btn-flat waves-effect white-text teal">
+                    Add
+                </a>
+            </div>
+        </li>
+    </template>
+
     <?php include_once('includes/scripts.php') ?>
+    <script src="js/shop.js"></script>
 </body>
 
 </html>
