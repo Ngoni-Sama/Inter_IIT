@@ -1,9 +1,9 @@
 #parallax {
 	/* Darken the image */
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../res/parallax.jpeg');
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/parallax.jpg');
 
 	/* Set a specific height */
-	height: calc(100vh - 55px);
+	height: calc(100vh - 56px);
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -30,4 +30,10 @@
 
 .caption {
 	width: fit-content;
+}
+
+@media only screen and (min-width: 601px) {
+	#parallax {
+		height: calc(100vh - 64px);
+	}
 }

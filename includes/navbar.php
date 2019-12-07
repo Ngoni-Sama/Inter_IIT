@@ -1,5 +1,5 @@
 <div class="navbar-fixed">
-    <nav style="background-color: teal;">
+    <nav class="teal">
         <div class="nav-wrapper">
 
             <a href="./" class="brand-logo" style="padding-left:20px; font-family: 'Damion', cursive;"> MedicoRx</a>
@@ -11,7 +11,6 @@
                 <li><a href="mobile.html">Login</a></li>
             </ul>
         </div>
-
     </nav>
 </div>
 
