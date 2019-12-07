@@ -18,13 +18,15 @@
                 <li class="collection-item avatar">
                     <i class="fas fa-pills circle teal"></i>
                     <span class="medicine-name">Medicine Name</span>
+                    <span class="green-text price">₹ 100</span>
+
                     <p>
                         <span class="blue-text">ABC Pharmaceuticals</span><br>
                         Mfg: 08/12/19<br>
                         Exp: 08/12/20
                     </p>
                     <div class="secondary-content price-container">
-                        <span class="green-text price">₹ 100</span>
+                        <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
                         <a href="#!" class="btn-flat waves-effect white-text teal">
                             Add
                         </a>
@@ -33,13 +35,15 @@
                 <li class="collection-item avatar">
                     <i class="fas fa-pills circle teal"></i>
                     <span class="medicine-name">Medicine Name</span>
+                    <span class="green-text price">₹ 100</span>
+
                     <p>
                         <span class="blue-text">ABC Pharmaceuticals</span><br>
                         Mfg: 08/12/19<br>
                         Exp: 08/12/20
                     </p>
                     <div class="secondary-content price-container">
-                        <span class="green-text price">₹ 100</span>
+                        <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
                         <a href="#!" class="btn-flat waves-effect white-text teal">
                             Add
                         </a>
@@ -48,13 +52,15 @@
                 <li class="collection-item avatar">
                     <i class="fas fa-pills circle teal"></i>
                     <span class="medicine-name">Medicine Name</span>
+                    <span class="green-text price">₹ 100</span>
+
                     <p>
                         <span class="blue-text">ABC Pharmaceuticals</span><br>
                         Mfg: 08/12/19<br>
                         Exp: 08/12/20
                     </p>
                     <div class="secondary-content price-container">
-                        <span class="green-text price">₹ 100</span>
+                        <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
                         <a href="#!" class="btn-flat waves-effect white-text teal">
                             Add
                         </a>
@@ -63,13 +69,15 @@
                 <li class="collection-item avatar">
                     <i class="fas fa-pills circle teal"></i>
                     <span class="medicine-name">Medicine Name</span>
+                    <span class="green-text price">₹ 100</span>
+
                     <p>
                         <span class="blue-text">ABC Pharmaceuticals</span><br>
                         Mfg: 08/12/19<br>
                         Exp: 08/12/20
                     </p>
                     <div class="secondary-content price-container">
-                        <span class="green-text price">₹ 100</span>
+                        <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
                         <a href="#!" class="btn-flat waves-effect white-text teal">
                             Add
                         </a>

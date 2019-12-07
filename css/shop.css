@@ -9,3 +9,7 @@
 	justify-content: space-around;
 	height: 70%;
 }
+.quantity-input {
+	width: 4rem !important;
+	text-align: center;
+}
