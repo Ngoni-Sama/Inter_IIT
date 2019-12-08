@@ -1,56 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <?php include_once('includes/head.php') ?>
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <?php include_once('includes/head.php') ?>
+    <link rel="stylesheet" href="css/login.css">
+    <title>MedicoRx | Sign Up</title>
 </head>
+
 <body>
-  <?php include('includes/navbar.php') ?>
-  <div>
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          This is an inline input field:
-          <div class="input-field inline">
-            <input id="email_inline" type="email" class="validate">
-            <label for="email_inline">Email</label>
-            <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
-        
+    <?php include('includes/navbar.php') ?>
+
+    <main>
+        <form class="login-card z-depth-1" method="POST">
+            <h2>Sign Up</h2>
+            <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="name" type="text" class="validate" autofocus name="name">
+                <label for="name">Name</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate" name="email">
+                <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">vpn_key</i>
+                <input id="password" type="password" class="validate" name="password">
+                <label for="password">Password</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">phone</i>
+                <input id="phone" type="tel" class="validate" name="phone">
+                <label for="phone">Phone Number</label>
+            </div>
+            <button class="btn submit-btn z-depth-0 waves-effect" name="submit">
+                Submit
+            </button>
+        </form>
+    </main>
+
+    <?php include_once('includes/scripts.php') ?>
 </body>
+
 </html>
