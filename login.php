@@ -66,8 +66,13 @@ if (isset($_POST['submit'])) {
                 </div>
             <?php } ?>
             <button class="btn submit-btn z-depth-0 waves-effect" name="submit">
-                Submit
+                Login
             </button>
+            <br>
+            <br>
+            <a href="signup.php" class="btn submit-btn z-depth-0 waves-effect">
+                    Create an Account
+            </a>
         </form>
     </main>
 
