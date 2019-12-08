@@ -25,7 +25,7 @@
                 <input id="password" type="password" class="validate" name="password">
                 <label for="password">Password</label>
             </div>
-            <button class="btn z-depth-0 waves-effect">
+            <button class="btn submit-btn z-depth-0 waves-effect">
                 Submit
             </button>
         </form>
