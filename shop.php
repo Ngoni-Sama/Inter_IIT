@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include('includes/navbar-extended.php') ?>
+    <?php include('includes/navbar.php') ?>
     <main style="margin-top: 80px;">
         <div class="container">
             <ul id="medicine-list" class="collection">
