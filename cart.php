@@ -18,13 +18,11 @@
 
             </ul>
         </div>
-    </main>
 
-    <div class="fixed-action-btn">
-        <a href="cart.php" class="btn-floating btn-large waves-effect waves-circle teal">
-            <i class="large material-icons">shopping_cart</i>
-        </a>
-    </div>
+        <div class="center-align" style="margin: 50px auto;">
+            <a href="#" class="btn btn-large waves-effect">Place Order</a>
+        </div>
+    </main>
 
     <template id="medicine-template">
         <li class="collection-item avatar">
@@ -39,15 +37,15 @@
             </p>
             <div class="secondary-content price-container">
                 <input class="quantity-input" value="1" min="1" placeholder="Qty" type="number">
-                <a href="#!" class="btn-flat waves-effect white-text add-btn teal">
-                    Add
+                <a href="#" class="btn-flat waves-effect remove-btn white-text red darken-1">
+                    Remove
                 </a>
             </div>
         </li>
     </template>
 
     <?php include_once('includes/scripts.php') ?>
-    <script src="js/shop.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 
 </html>
