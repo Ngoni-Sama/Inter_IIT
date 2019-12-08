@@ -12,7 +12,7 @@
                 <li><a href="./shop.php">Order Medicines</a></li>
                 <li><a href="collapsible.html">Reminder</a></li>
                 <li><a href="mobile.html">About Us</a></li>
-                <li><a href="mobile.html">Login</a></li>
+                <li><a href="login.php">Login</a></li>
             </ul>
         </div>
 
@@ -34,6 +34,7 @@
 
 <ul class="sidenav" id="mobile-demo">
     <li><a href="./">Home</a></li>
+    <li><a href="login.php">Login</a></li>
     <li><a href="./shop.php">Order Medicines</a></li>
     <li><a href="">Reminder</a></li>
     <li><a href="">About Us</a></li>
