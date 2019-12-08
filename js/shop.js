@@ -12,6 +12,48 @@ const dummyResults = [
 		company: 'Alpha Pharmaceuticals',
 		mfg: '08/12/19',
 		exp: '08/12/20'
+	},
+	{
+		name: 'Sinarest',
+		price: '50',
+		company: 'Alpha Pharmaceuticals',
+		mfg: '08/12/19',
+		exp: '08/12/20'
+	},
+	{
+		name: 'Sinarest',
+		price: '50',
+		company: 'Alpha Pharmaceuticals',
+		mfg: '08/12/19',
+		exp: '08/12/20'
+	},
+	{
+		name: 'Sinarest',
+		price: '50',
+		company: 'Alpha Pharmaceuticals',
+		mfg: '08/12/19',
+		exp: '08/12/20'
+	},
+	{
+		name: 'Sinarest',
+		price: '50',
+		company: 'Alpha Pharmaceuticals',
+		mfg: '08/12/19',
+		exp: '08/12/20'
+	},
+	{
+		name: 'Sinarest',
+		price: '50',
+		company: 'Alpha Pharmaceuticals',
+		mfg: '08/12/19',
+		exp: '08/12/20'
+	},
+	{
+		name: 'Sinarest',
+		price: '50',
+		company: 'Alpha Pharmaceuticals',
+		mfg: '08/12/19',
+		exp: '08/12/20'
 	}
 ];
 
