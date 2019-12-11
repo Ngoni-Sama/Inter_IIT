@@ -12,7 +12,10 @@ if (isset($_POST['submit'])) {
             if ($password === $row['passkey']) {
                 $str = "Successfully login.";
                 $login = 1;
-                header('Location: working.php');
+                setcookie("name",$row['name'],time()+(86400));
+                setcookie("id",$row['id'],time()+86400);
+                setcookie("login",$login,time() + (86400));
+                header('Location: shop.php');
                 exit();
             }
         }

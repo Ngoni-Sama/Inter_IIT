@@ -12,7 +12,12 @@
                 <li><a href="./shop.php">Order Medicines</a></li>
                 <li><a href="collapsible.html">Reminder</a></li>
                 <li><a href="mobile.html">About Us</a></li>
-                <li><a href="login.php">Login</a></li>
+                <?php if(!isset($_COOKIE['login'])):?>
+                    <li><a href="login.php"  class="waves-effect waves-light btn-small">Login</a></li>
+                <?php else:?>
+                    <li><a href="logout.php"  class="waves-effect waves-light btn-small">Logout</a></li>
+                <?php endif;?>
+
             </ul>
         </div>
 
@@ -33,9 +38,33 @@
 </div>
 
 <ul class="sidenav" id="mobile-demo">
-    <li><a href="./">Home</a></li>
-    <li><a href="login.php">Login</a></li>
-    <li><a href="./shop.php">Order Medicines</a></li>
-    <li><a href="">Reminder</a></li>
-    <li><a href="">About Us</a></li>
+    <?php if(isset($_COOKIE['login'])) {
+        if($_COOKIE['login']==1){?>
+            <h6 style="background-color:aquamarine; padding-top : 15px; padding-bottom:20px; padding-left: 25px; ">Hello, <?php echo $_COOKIE['name'] ?></h6>
+            <li><a href="./">Home</a></li>
+            <li><a href="./shop.php">Order Medicines</a></li>
+            <li><a href="">Reminder</a></li>
+            <hr>
+            <li><a href="">About Us</a></li>
+            <li><a href="logout.php"  class="waves-effect waves-light btn-small">Logout</a></li>
+    <?php }
+        else{ ?>
+            <h6 style="background-color:aquamarine; padding-top : 15px; padding-bottom:20px; padding-left: 25px; ">Hello, Guest</h6>
+            <li><a href="./">Home</a></li>
+            <li><a href="./shop.php">Order Medicines</a></li>
+            <li><a href="">Reminder</a></li>
+            <hr>
+            <li><a href="">About Us</a></li>
+            <li><a href="login.php"  class="waves-effect waves-light btn-small">Login</a></li>
+       <?php } 
+    }
+    else {?>   
+        <h6 style="background-color:aquamarine; padding-top : 15px; padding-bottom:20px; padding-left: 25px; ">Hello, Guest</h6>
+        <li><a href="./">Home</a></li>
+        <li><a href="./shop.php">Order Medicines</a></li>
+        <li><a href="">Reminder</a></li>
+        <hr>
+        <li><a href="">About Us</a></li>
+        <li><a href="login.php"  class="waves-effect waves-light btn-small">Login</a></li>
+    <?php }  ?>
 </ul>

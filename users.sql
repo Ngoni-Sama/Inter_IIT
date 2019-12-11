@@ -55,7 +55,7 @@ INSERT INTO `users` (`email`, `passkey`, `id`, `name`, `phone_number`) VALUES
 --
 -- Indexes for table `users`
 --
-ALTER TABLE `users`
+ALTER TABLE `users`!
   ADD PRIMARY KEY (`id`);
 
 --

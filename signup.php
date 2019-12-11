@@ -20,11 +20,23 @@
             $login = 0;
         }
         else{
-            $query = "insert into users (name,phone_number,email,passkey) values('".trim($_POST['name'])."',".trim($_POST['phone']).",'".trim($_POST['email'])."','".trim($_POST['password'])."');";
+            $email = trim($_POST['email']);
+            $query = 'select * from users where email = "' . $email . '"';
             $result = mysqli_query($conn, $query);
-            $login = 1;
-            header('Location: working.php');
-            exit();
+            if ($result->num_rows > 0){
+                $str = "Email already in use!!";
+                $login = 0;
+            }
+            else{
+                $query = "insert into users (name,phone_number,email,passkey) values('".trim($_POST['name'])."',".trim($_POST['phone']).",'".trim($_POST['email'])."','".trim($_POST['password'])."');";
+                $result = mysqli_query($conn, $query);
+                $login = 1;
+                setcookie("name",$row['name'],time()+(86400));
+                setcookie("id",$row['id'],time()+86400);
+                setcookie("login",$login,time() + (86400));
+                header('Location: shop.php');
+                exit();
+            }
         }
     }
 ?>
