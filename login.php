@@ -70,8 +70,8 @@ if (isset($_POST['submit'])) {
             </button>
             <br>
             <br>
-            <a href="signup.php" class="btn submit-btn z-depth-0 waves-effect">
-                    Create an Account
+            <a href="signup.php" class="btn-flat teal-text waves-effect">
+                Create new Account
             </a>
         </form>
     </main>

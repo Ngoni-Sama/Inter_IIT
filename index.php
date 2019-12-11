@@ -17,7 +17,7 @@
             <div class="parallax__center">
                 <!-- <img class="logo_bhilai" src="Webp.net-resizeimage.png" alt=""> -->
                 <div class="white-text caption" style="margin: 0px auto">
-                    <span class="flow-text" style="margin: 0px auto 3px auto;">Indian Institute of Technology, Bhilai</span>
+                    <span class="flow-text" style="margin: 0px auto 3px auto;">Indian Institute of Technology Bhilai</span>
                     <h1 style="margin: 0px auto 3px auto; font-size: 3.3em; font-weight: bold;font-family: 'Damion', cursive;">MedicoRx</h1>
                 </div>
             </div>
