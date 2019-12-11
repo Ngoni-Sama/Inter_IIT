@@ -31,7 +31,9 @@
                 <div style="flex-grow: 1">
                     <h4>Order #<span class="order-id">723812</span></h4>
                     Status: <span class="status">Delivered on Dec 11, 19</span> <br> <br>
-                    <a href="#" class="btn waves-effect teal white-text btn-flat">Return Medicines</a>
+                    <a href="return.php" class="btn waves-effect teal white-text btn-flat">
+                        Return Medicines
+                    </a>
                 </div>
                 <div class="green-text bold">
                     ₹<span class="grand-total">20000</span>
