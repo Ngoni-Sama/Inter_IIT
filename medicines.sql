@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 11, 2019 at 02:32 PM
+-- Generation Time: Dec 11, 2019 at 02:31 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.10
 
@@ -25,34 +25,32 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Table structure for table `medicines`
 --
 
-CREATE TABLE `users` (
-  `email` varchar(255) NOT NULL,
-  `passkey` varchar(255) DEFAULT NULL,
+CREATE TABLE `medicines` (
   `id` int(11) NOT NULL,
   `name` varchar(255) DEFAULT NULL,
-  `phone_number` bigint(20) DEFAULT NULL
+  `company` varchar(255) DEFAULT NULL,
+  `mfg` date DEFAULT NULL,
+  `exp` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `users`
+-- Dumping data for table `medicines`
 --
 
-INSERT INTO `users` (`email`, `passkey`, `id`, `name`, `phone_number`) VALUES
-('ambar@iit.ac.in', '456', 2, NULL, NULL),
-('ab@jjfg.com', '4564846148', 6, 'abhishek', 7894567894),
-('A@g.com', '123', 7, 'Anshul', 123456780);
+INSERT INTO `medicines` (`id`, `name`, `company`, `mfg`, `exp`) VALUES
+(1, 'paracetamol', 'IITBHILAI', '2018-05-15', '2020-05-14');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `users`
+-- Indexes for table `medicines`
 --
-ALTER TABLE `users`
+ALTER TABLE `medicines`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -60,10 +58,10 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT for table `medicines`
 --
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+ALTER TABLE `medicines`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

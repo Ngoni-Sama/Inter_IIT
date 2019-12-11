@@ -73,6 +73,9 @@ if (isset($_POST['submit'])) {
             </button>
             <br>
             <br>
+            <span class="center">OR</span>
+            <br>
+            <br>
             <a href="signup.php" class="btn-flat teal-text waves-effect">
                 Create new Account
             </a>
