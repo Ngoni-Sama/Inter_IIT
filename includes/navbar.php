@@ -10,7 +10,7 @@
             <ul class="right hide-on-med-and-down">
                 <li><a href="./">Home</a></li>
                 <li><a href="./shop.php">Order Medicines</a></li>
-                <li><a href="collapsible.html">Reminder</a></li>
+                <li><a href="order.php">Order History</a></li>
                 <li><a href="mobile.html">About Us</a></li>
                 <?php if (!isset($_COOKIE['login'])) : ?>
                     <li><a href="login.php" class="waves-effect black white-text btn-flat btn-small">Login</a></li>
@@ -29,7 +29,7 @@
                         <label class="label-icon" for="search">
                             <i class="material-icons black-text">search</i>
                         </label>
-                        <i class="material-icons">close</i>
+                        <i class="material-icons" onclick="clear()">close</i>
                     </div>
                 </form>
             </div>
@@ -43,7 +43,7 @@
             <h6 style="background-color:aquamarine; padding-top : 15px; padding-bottom:20px; padding-left: 25px; ">Hello, <?php echo $_COOKIE['name'] ?></h6>
             <li><a href="./">Home</a></li>
             <li><a href="./shop.php">Order Medicines</a></li>
-            <li><a href="">Reminder</a></li>
+            <li><a href="order.php">Order History</a></li>
             <hr>
             <li><a href="">About Us</a></li>
             <li><a href="logout.php" class="waves-effect btn-flat teal white-text btn-small">Logout</a></li>
@@ -51,7 +51,7 @@
             <h6 style="background-color:aquamarine; padding-top : 15px; padding-bottom:20px; padding-left: 25px; ">Hello, Guest</h6>
             <li><a href="./">Home</a></li>
             <li><a href="./shop.php">Order Medicines</a></li>
-            <li><a href="">Reminder</a></li>
+            <li><a href="order.php">Order History</a></li>
             <hr>
             <li><a href="">About Us</a></li>
             <li><a href="login.php" class="waves-effect btn-small">Login</a></li>
@@ -60,7 +60,7 @@
         <h6 style="background-color:aquamarine; padding-top : 15px; padding-bottom:20px; padding-left: 25px; ">Hello, Guest</h6>
         <li><a href="./">Home</a></li>
         <li><a href="./shop.php">Order Medicines</a></li>
-        <li><a href="">Reminder</a></li>
+        <li><a href="order.php">Order History</a></li>
         <hr>
         <li><a href="">About Us</a></li>
         <li><a href="login.php" class="waves-effect btn-flat teal white-text btn-small">Login</a></li>

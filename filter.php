@@ -5,7 +5,7 @@
   $query = "Select * from medicines";
   // echo strlen($q)."  ".$q."\n";
   if(strlen($q)!==0){
-    $query = $query." where name like '".$q."%'";
+    $query = $query." where name like '%".$q."%'";
   }
   $stmt = $conn->prepare($query);
   $stmt->execute();
