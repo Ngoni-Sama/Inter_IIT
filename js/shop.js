@@ -1,5 +1,6 @@
-const dummyResults = [
+var dummyResults = [
 	{
+		id: 1,
 		name: 'Sinarest',
 		price: '50',
 		company: 'Alpha Pharmaceuticals',
@@ -7,6 +8,7 @@ const dummyResults = [
 		exp: '08/12/20'
 	},
 	{
+		id: 2,
 		name: 'Crocin',
 		price: '20',
 		company: 'Alpha Pharmaceuticals',
@@ -15,6 +17,8 @@ const dummyResults = [
 	}
 ];
 
+// var xmlhttp = new XMLHttpRequest();
+// xmlhttp.onreadystatechange = 
 let cart = JSON.parse(localStorage.getItem('cart')) || {};
 
 const listItemElement = document
@@ -23,6 +27,9 @@ const listItemElement = document
 const listElement = document.querySelector('#medicine-list');
 
 function displayResults(results) {
+	while (listElement.hasChildNodes()) {  
+		listElement.removeChild(listElement.firstChild);
+	}
 	results.forEach(result => {
 		let newListElement = document.importNode(listItemElement, true);
 
@@ -45,4 +52,19 @@ function displayResults(results) {
 	});
 }
 
-displayResults(dummyResults);
+
+function showsuggestions(){
+	var str = document.getElementById("search").value;
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.open("GET", "filter.php?q="+ str , true);
+	xmlhttp.send();
+	xmlhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			dummyResults = JSON.parse(this.responseText);
+		}
+	};
+	console.log(dummyResults);
+	displayResults(dummyResults);
+}
+
+showsuggestions();

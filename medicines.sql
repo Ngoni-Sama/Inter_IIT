@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 11, 2019 at 02:31 PM
+-- Generation Time: Dec 12, 2019 at 05:07 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.10
 
@@ -30,7 +30,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `medicines` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
+  `name` varchar(255) NOT NULL DEFAULT 'NULL',
+  `price` int(15) NOT NULL,
   `company` varchar(255) DEFAULT NULL,
   `mfg` date DEFAULT NULL,
   `exp` date DEFAULT NULL
@@ -40,8 +41,8 @@ CREATE TABLE `medicines` (
 -- Dumping data for table `medicines`
 --
 
-INSERT INTO `medicines` (`id`, `name`, `company`, `mfg`, `exp`) VALUES
-(1, 'paracetamol', 'IITBHILAI', '2018-05-15', '2020-05-14');
+INSERT INTO `medicines` (`id`, `name`, `price`, `company`, `mfg`, `exp`) VALUES
+(1, 'paracetamol', 50, 'IITBHILAI', '2018-05-15', '2020-05-14');
 
 --
 -- Indexes for dumped tables

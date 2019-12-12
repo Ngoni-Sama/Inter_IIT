@@ -25,7 +25,7 @@
             <div class="nav-content white">
                 <form>
                     <div class="input-field">
-                        <input placeholder="Search" id="search" type="search" style="padding: 5px 50px; border-bottom: 1px solid #9e9e9e;" required>
+                        <input placeholder="Search" id="search" type="search" style="padding: 5px 50px; border-bottom: 1px solid #9e9e9e;" value="" oninput ="showsuggestions()">
                         <label class="label-icon" for="search">
                             <i class="material-icons black-text">search</i>
                         </label>
