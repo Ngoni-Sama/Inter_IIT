@@ -29,7 +29,7 @@
                         <label class="label-icon" for="search">
                             <i class="material-icons black-text">search</i>
                         </label>
-                        <i class="material-icons" onclick="clear()">close</i>
+                        <i class="material-icons" onclick="document.getElementById('search').value = ''">close</i>
                     </div>
                 </form>
             </div>
