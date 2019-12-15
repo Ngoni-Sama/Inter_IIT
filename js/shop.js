@@ -56,15 +56,14 @@ function displayResults(results) {
 function showsuggestions(){
 	var str = document.getElementById("search").value;
 	var xmlhttp = new XMLHttpRequest();
-	xmlhttp.open("GET", "filter.php?q="+ str , true);
-	xmlhttp.send();
 	xmlhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			dummyResults = JSON.parse(this.responseText);
 		}
 	};
+	xmlhttp.open("GET", "filter.php?q="+ str , false);
+	xmlhttp.send();
 	console.log(dummyResults);
 	displayResults(dummyResults);
 }
-
 showsuggestions();

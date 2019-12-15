@@ -46,7 +46,7 @@
             <li><a href="order.php">Order History</a></li>
             <hr>
             <li><a href="">About Us</a></li>
-            <li><a href="logout.php" class="waves-effect btn-flat teal white-text btn-small">Logout</a></li>
+            <li><a href="logout.php" class="waves-effect btn-small">Logout</a></li>
         <?php } else { ?>
             <h6 style="background-color:aquamarine; padding-top : 15px; padding-bottom:20px; padding-left: 25px; ">Hello, Guest</h6>
             <li><a href="./">Home</a></li>
@@ -63,6 +63,6 @@
         <li><a href="order.php">Order History</a></li>
         <hr>
         <li><a href="">About Us</a></li>
-        <li><a href="login.php" class="waves-effect btn-flat teal white-text btn-small">Login</a></li>
+        <li><a href="login.php" class="waves-effect btn-small">Login</a></li>
     <?php }  ?>
 </ul>
