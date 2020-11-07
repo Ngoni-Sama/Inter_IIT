@@ -2,7 +2,7 @@
     <nav class="teal">
         <div class="nav-wrapper">
 
-            <a href="./" class="brand-logo" style="padding-left:20px; font-family: 'Damion', cursive;"> MedicoRx
+            <a href="./" class="brand-logo" style="padding-left:20px; font-family: 'Damion', cursive;"> Brismed
             </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                 <i class="material-icons">menu</i>

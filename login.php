@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php include_once('includes/head.php') ?>
     <link rel="stylesheet" href="css/login.css">
-    <title>MedicoRx | Login</title>
+    <title>Brismed | Login</title>
 </head>
 
 <body>

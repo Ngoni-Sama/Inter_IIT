@@ -56,7 +56,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php include_once('includes/head.php') ?>
     <link rel="stylesheet" href="css/login.css">
-    <title>MedicoRx | Sign Up</title>
+    <title>Brismed | Sign Up</title>
 </head>
 
 <body>
