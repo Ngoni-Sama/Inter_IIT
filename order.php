@@ -30,7 +30,7 @@
             <li class="collection-header">
                 <div style="flex-grow: 1">
                     <h4>Order #<span class="order-id">723812</span></h4>
-                    Status: <span class="status">Delivered on Dec 11, 19</span> <br> <br>
+                    Status: <span class="status">Delivered on Nov 11, 20</span> <br> <br>
                     <a href="return.php" class="btn waves-effect teal white-text btn-flat">
                         Return Medicines
                     </a>
@@ -54,8 +54,8 @@
                     </span>
                     &ThickSpace; Quantity:
                     <span class="quantity">10</span> <br>
-                    <span class="blue-text company">ABC Pharmaceuticals</span><br>
-                    Mfg: <span class="mfg">10/11/19</span><br>
+                    <span class="blue-text company">Brismed Pharmaceuticals</span><br>
+                    Mfg: <span class="mfg">10/11/20</span><br>
                     Exp: <span class="exp">10/11/20</span>
                 </p>
             </div>

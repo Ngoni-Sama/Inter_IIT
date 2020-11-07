@@ -30,10 +30,10 @@
         <li class="collection-item avatar">
             <i class="fas fa-pills circle teal"></i>
             <span class="medicine-name">Medicine Name</span>
-            <span class="green-text price">₹ 100</span>
+            <span class="green-text price">$ 100</span>
 
             <p>
-                <span class="blue-text company">ABC Pharmaceuticals</span><br>
+                <span class="blue-text company">Brismed Pharmaceuticals</span><br>
                 <span class="mfg"></span><br>
                 <span class="exp"></span>
             </p>
