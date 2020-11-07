@@ -50,7 +50,7 @@
                 <div class="medicine-name">Medicine Name</div>
                 <p>
                     <span class="green-text">
-                        ₹ <span class="price">100</span>
+                        $ <span class="price">100</span>
                     </span>
                     &ThickSpace; Quantity:
                     <span class="quantity">10</span> <br>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="bold green-text">
-                ₹<span class="net-price">1000</span>
+                $<span class="net-price">1000</span>
             </div>
         </li>
     </template>
