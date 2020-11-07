@@ -3,14 +3,14 @@ const listItemTemplate = document.querySelector('#list-item');
 
 let order = {
 	id: '29382361',
-	status: 'Delivered on Dec 12, 19',
+	status: 'Delivered on Nov 12, 20',
 	amount: 10000,
 	items: [
 		{
 			name: 'Medicine A',
 			price: 1000,
 			quantity: 5,
-			company: 'ABC Pharmaceuticals',
+			company: 'Brismed Pharmaceuticals',
 			mfg: '10/11/12',
 			exp: '10/11/13'
 		},
@@ -18,9 +18,9 @@ let order = {
 			name: 'Medicine B',
 			price: 1000,
 			quantity: 5,
-			company: 'ABC Pharmaceuticals',
-			mfg: '10/11/12',
-			exp: '10/11/13'
+			company: 'Brismed Pharmaceuticals',
+			mfg: '10/11/19',
+			exp: '10/11/22'
 		}
 	]
 };
