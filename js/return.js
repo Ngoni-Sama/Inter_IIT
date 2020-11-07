@@ -2,7 +2,7 @@ const dummyResults = [
 	{
 		name: 'Sinarest',
 		price: '50',
-		company: 'Alpha Pharmaceuticals',
+		company: 'Brismed Pharmaceuticals',
 		quantity: 3,
 		mfg: '08/12/19',
 		exp: '08/12/20'
@@ -10,7 +10,7 @@ const dummyResults = [
 	{
 		name: 'Crocin',
 		price: '20',
-		company: 'Alpha Pharmaceuticals',
+		company: 'Brismed Pharmaceuticals',
 		quantity: 4,
 		mfg: '08/12/19',
 		exp: '08/12/20'
@@ -30,7 +30,7 @@ function displayResults(results) {
 			const quantityInput = newListElement.querySelector('.quantity-input');
 
 			newListElement.querySelector('.medicine-name').textContent = result.name;
-			newListElement.querySelector('.price').textContent = `₹ ${result.price}`;
+			newListElement.querySelector('.price').textContent = `$ ${result.price}`;
 			newListElement.querySelector('.company').textContent = result.company;
 			newListElement.querySelector('.mfg').textContent = `Mfg: ${result.mfg}`;
 			newListElement.querySelector('.exp').textContent = `Exp: ${result.exp}`;

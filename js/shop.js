@@ -3,7 +3,7 @@ var dummyResults = [
 		id: 1,
 		name: 'Sinarest',
 		price: '50',
-		company: 'Alpha Pharmaceuticals',
+		company: 'Brismed Pharmaceuticals',
 		mfg: '08/12/19',
 		exp: '08/12/20'
 	},
@@ -18,7 +18,7 @@ var dummyResults = [
 ];
 
 // var xmlhttp = new XMLHttpRequest();
-// xmlhttp.onreadystatechange = 
+// xmlhttp.onreadystatechange =
 let cart = JSON.parse(localStorage.getItem('cart')) || {};
 
 const listItemElement = document
@@ -27,14 +27,14 @@ const listItemElement = document
 const listElement = document.querySelector('#medicine-list');
 
 function displayResults(results) {
-	while (listElement.hasChildNodes()) {  
+	while (listElement.hasChildNodes()) {
 		listElement.removeChild(listElement.firstChild);
 	}
 	results.forEach(result => {
 		let newListElement = document.importNode(listItemElement, true);
 
 		newListElement.querySelector('.medicine-name').textContent = result.name;
-		newListElement.querySelector('.price').textContent = `₹ ${result.price}`;
+		newListElement.querySelector('.price').textContent = `$ ${result.price}`;
 		newListElement.querySelector('.company').textContent = result.company;
 		newListElement.querySelector('.mfg').textContent = `Mfg: ${result.mfg}`;
 		newListElement.querySelector('.exp').textContent = `Exp: ${result.exp}`;
