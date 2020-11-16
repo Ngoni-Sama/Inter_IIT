@@ -44,7 +44,7 @@ body {
     <h2>  <a href="" class="typewrite" data-period="2000" data-type='[ "Get medical advice online", "Get to choose a Doctor", "Get to Order your medication Online", "Get medication Delivered straight to you" ]'>
         <span class="wrap"></span>
       </a></h2>
-    <p>get started Now</p>
+
     <!-- TODO: add hero image credit
     Photographer:Alexey Sokolov https://photos.icons8.com/photographers/alexey-sokolov
     -->
