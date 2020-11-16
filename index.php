@@ -7,20 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php include_once('includes/head.php') ?>
     <link rel="stylesheet" href="css/index.css">
-    <title>Welcome </title>
+    <title>Brismed ⚕️ </title>
 </head>
-<head>
-<style>
-body {
-  background-image: url("images/parallax.gif"),;
-  background-color: #cccccc;
-}
-</style>
-</head>
+
 <body>
     <?php include('includes/navbar.php') ?>
     <main>
-        <div id="images/parallax.gif" style="position: relative;">
+        <div id="parallax" style="position: relative;">
             <div class="parallax__center">
                 <!-- <img class="logo_bhilai" src="Webp.net-resizeimage.png" alt=""> -->
                 <div class="white-text caption" style="margin: 0px auto">
