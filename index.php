@@ -117,8 +117,8 @@ img {vertical-align: middle;}
 </head>
 <body>
 
-<h2>Automatic Slideshow</h2>
-<p>Change image every 2 seconds:</p>
+<h2>Join Brismed Today</h2>
+<p>get started Now</p>
 
 <div class="slideshow-container">
 
