@@ -2,14 +2,7 @@
 	/* Darken the image */
 	background:url("images/parallax.gif");
 
-	/* Set a specific height */
-	height: calc(100vh - 56px);
 
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: repeat;
-	background-size: cover;
 }
 
 .logo {
