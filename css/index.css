@@ -1,4 +1,8 @@
 body {
-  background: url("images/parallax.gif") repeat center center fixed;
-  background-size: cover;
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
 }
+
+* { color:#fff; text-decoration: none;}
