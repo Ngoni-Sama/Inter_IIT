@@ -1,6 +1,6 @@
 #parallax {
 	/* Darken the image */
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/parallax.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/parallax.gif');
 
 	/* Set a specific height */
 	height: calc(100vh - 56px);
