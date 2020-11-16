@@ -13,7 +13,7 @@
 <body>
     <?php include('includes/navbar.php') ?>
     <main>
-        <div id="parallax" style="position: relative;">
+        <div id="images/parallax.gif" style="position: relative;">
             <div class="parallax__center">
                 <!-- <img class="logo_bhilai" src="Webp.net-resizeimage.png" alt=""> -->
                 <div class="white-text caption" style="margin: 0px auto">
