@@ -41,9 +41,9 @@ body {
             <!-- About Us stuff here -->
         </div>
     </main>
-    <h2>  <a href="" class="typewrite" data-period="2000" data-type='[ "Get medical advice online", "Get to choose a Doctor", "Get to Order your medication Online", "Get medication Delivered straight to you" ]'>
+    <h1>  <a href="" class="typewrite" data-period="2000" data-type='[ "Get medical advice online", "Get to choose a Doctor", "Get to Order your medication Online", "Get medication Delivered straight to you" ]'>
         <span class="wrap"></span>
-      </a></h2>
+      </a></h1>
 
     <!-- TODO: add hero image credit
     Photographer:Alexey Sokolov https://photos.icons8.com/photographers/alexey-sokolov
