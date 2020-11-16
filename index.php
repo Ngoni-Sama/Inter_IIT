@@ -9,23 +9,12 @@
     <link rel="stylesheet" href="css/index.css">
     <title>Brismed</title>
 </head>
- body{
-  background-image: url("images/parallax.gif");
-  background-size: cover;
-
-
-
-  height: 100vh;
-  padding:0;
-  margin:0;
-}
-
 
 <body>
     <?php include('includes/navbar.php') ?>
     <main>
-
-
+        <div id="parallax" style="position: relative;">
+            <div class="parallax__center">
                 <!-- <img class="logo_bhilai" src="Webp.net-resizeimage.png" alt=""> -->
                 <div class="white-text caption" style="margin: 0px auto">
                     <span class="flow-text" style="margin: 0px auto 3px auto;">Get medication delivered to wherever you are on the go!</span>
