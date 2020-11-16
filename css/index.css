@@ -1,40 +1,4 @@
-#parallax {
-	/* Darken the image */
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/parallax.gif');
-
-
-	/* Set a specific height */
-	height: calc(100vh - 56px);
-
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.logo {
-	width: 40px;
-	height: 50px;
-	fill: currentColor;
-	padding-top: 15px;
-}
-
-.parallax__center {
-	position: absolute;
-	left: 0;
-	top: 22%;
-	width: 100%;
-	text-align: center;
-	font-weight: bold;
-}
-
-.caption {
-	width: fit-content;
-}
-
-@media only screen and (min-width: 601px) {
-	#parallax {
-		height: calc(100vh - 64px);
-	}
+body {
+  background: url('images/parallax.gif') repeat center center fixed;
+  background-size: cover;
 }
