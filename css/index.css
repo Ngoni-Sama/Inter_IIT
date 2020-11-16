@@ -1,4 +1,4 @@
 body {
-  background: url('images/parallax.gif') repeat center center fixed;
+  background: url("images/parallax.gif") repeat center center fixed;
   background-size: cover;
 }
