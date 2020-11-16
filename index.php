@@ -9,7 +9,17 @@
     <link rel="stylesheet" href="css/index.css">
     <title>Brismed</title>
 </head>
+<head>
+<style>
+body {
+  background-image: url("images/parallax.gif"),;
+  background-color: #cccccc;
+}
+</style>
+</head>
+<body>
 
+</body>
 <body>
     <?php include('includes/navbar.php') ?>
     <main>
