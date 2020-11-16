@@ -36,7 +36,7 @@
         <li class="collection-item waves-effect">
             <div style="flex-grow: 1;">
                 <div class="grey-text">Order ID: <span class="order-id">29382361</span></div>
-                Status: <span class="status">Delivered on Dec 11, 19</span>
+                Status: <span class="status">Delivered on Dec 11, 20</span>
             </div>
 
             <span class="green-text bold">₹<span class="amount">200</span></span><br>

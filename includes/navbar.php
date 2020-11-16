@@ -11,7 +11,7 @@
                 <li><a href="./">Home</a></li>
                 <li><a href="./shop.php">Order Medicines</a></li>
                 <li><a href="order.php">Order History</a></li>
-                <li><a href="mobile.html">About Us</a></li>
+                <li><a href="mobile.html">About Brismed</a></li>
                 <?php if (!isset($_COOKIE['login'])) : ?>
                     <li><a href="login.php" class="waves-effect black white-text btn-flat btn-small">Login</a></li>
                 <?php else : ?>

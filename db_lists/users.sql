@@ -42,7 +42,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`email`, `passkey`, `id`, `name`, `phone_number`) VALUES
 ('ambar@iit.ac.in', '456', 2, NULL, NULL),
-('ab@jjfg.com', '4564846148', 6, 'abhishek', 7894567894),
+('admin@brismed.com', 'admin', 6, 'Bryan', 7894567894),
 ('A@g.com', '123', 7, 'Anshul', 123456780);
 
 --
