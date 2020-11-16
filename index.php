@@ -18,9 +18,6 @@ body {
 </style>
 </head>
 <body>
-
-</body>
-<body>
     <?php include('includes/navbar.php') ?>
     <main>
         <div id="images/parallax.gif" style="position: relative;">
