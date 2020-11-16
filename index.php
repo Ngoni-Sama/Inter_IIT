@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php include_once('includes/head.php') ?>
     <link rel="stylesheet" href="css/index.css">
-    <title>Brismed</title>
+    <title>Brismed ⚕️</title>
 </head>
 <head>
 <style>
@@ -25,7 +25,7 @@ body {
                 <!-- <img class="logo_bhilai" src="Webp.net-resizeimage.png" alt=""> -->
                 <div class="white-text caption" style="margin: 0px auto">
                     <span class="flow-text" style="margin: 0px auto 3px auto;">Get medication delivered to wherever you are on the go!</span>
-                    <h1 style="margin: 0px auto 3px auto; font-size: 3.3em; font-weight: bold;font-family: 'Damion', cursive;">Brismed</h1>
+                    <h1 style="margin: 0px auto 3px auto; font-size: 3.3em; font-weight: bold;font-family: 'Hearth stone', cursive;">Brismed ⚕️</h1>
                 </div>
             </div>
             <div style="position:absolute; bottom: 120px; width: 100%; text-align: center;">
@@ -41,9 +41,6 @@ body {
             <!-- About Us stuff here -->
         </div>
     </main>
-    <h1>  <a href="" class="typewrite" data-period="2000" data-type='[ "Get medical advice online", "Get to choose a Doctor", "Get to Order your medication Online", "Get medication Delivered straight to you" ]'>
-        <span class="wrap"></span>
-      </a></h1>
 
     <!-- TODO: add hero image credit
     Photographer:Alexey Sokolov https://photos.icons8.com/photographers/alexey-sokolov
